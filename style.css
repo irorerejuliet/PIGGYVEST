@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+body{
+  background-color: aliceblue;
+}
+
+.headerlogo{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  
+}
+.list-item{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.btn--login:link,.btn--login:visited{
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: #0c1825;
+
+}
+.btn--register:link,.btn--register:visited{
+  padding: 12px 24px;
+  background-color: #122231;
+  color: #f2f7f8;
+
+}
+.btn--register:hover,.btn--register:active{
+  background-color: #02182d;
+
+}
+.nav-list:link{
+  text-decoration: none ;
+  color: #0c1825;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.btn:link,.btn:visited{
+  text-decoration: none;
+  font-size: 20px;
+  display: inline;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+h1{
+  color: #0c1825;
+  padding: 50PX;
+  padding-bottom: 20px;
+  font-size: 50px;
+  margin-top: 10%;
+}
+P{
+  font-size: 20px;
+  padding: 50px;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+.image{
+  position: relative;
+  left: 20px;
+}
+
+.LOCK-1{
+  position: absolute;
+  top: 45%;
+  left: 53%;
+  border: 80px 160px;
+}
+.LOCK-2{
+  position: absolute;
+  top: 40%;
+  left: 83%;
+  
+}
+.LOCK-3{
+  position: absolute;
+  bottom: 10%;
+  left: 53%;
+}
+.LOCK-4{
+  position: absolute;
+  bottom: 10%;
+  left: 85%;
+
+}
+.LOCK-5{
+  position: absolute;
+  bottom: -20%;
+  left: 70%;
+}
+
+.container{
+display: flex;
+ align-items: center;
+ width: 970px;
+ padding: 50px;
+ }
+
+ .item h4{
+  font-size: 20px;
+ }
+ .item .heading{
+  font-size: 20px;
+  color: #132231;
+ }
+ .show{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+ }
+ .group{
+  border: 1px solid #f2f7f8;
+  padding-right: 80px;
+  width: 565px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+ }
+ .savings {
+  padding-left: 50px;
+  width: 550px;
+ }
+ .Earn{
+  padding-left: 45px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(0, 51, 153);
+ }
+ .iPhone{
+  position: absolute;
+  right: 70px;
+ }
+ .iphone12{
+  
+ }
+ 
+ .boxes{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+ }
+ .box-1{
+  border: 1px solid #f2f7f8;
+  width: 565px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .boxes .Fixed{
+  font-size: 40px;
+  color: rgb(50, 150, 255);
+  padding-left: 45px;
+  padding-top: 50px;
+ }
+ 
+ .layer{
+  width: 350px;
+  font-size: 20px; 
+  color: #3d4560;
+ }
+ .Goal{
+  font-size: 40px;
+  color: rgb(6, 155, 64);
+  padding-left: 45px;
+  padding-top: 50px;
+ }
+ .Naira{
+  font-size: 40px;
+  color: rgb(229, 40, 142);
+  padding-left: 45px;
+  padding-top: 50px;
+ }
+ .dollar{
+  font-size: 40px;
+  color: rgb(12, 24, 27);
+  padding-left: 45px;
+  padding-top: 50px;
+ }
+ .key1{
+  position: absolute;
+ top: 20px;
+ }
+ .box-2{
+  border: 1px solid #f2f7f8;
+  width: 565px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .second-boxes{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+ }
+ .box-3{
+  border: 1px solid #f2f7f8;
+  width: 565px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .investment{
+  background-color: #f2f7f8;
+ }
+ .box-4{
+  border: 1px solid #f2f7f8;
+  width: 565px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .box-6{
+  text-align: center;
+  }
+  .title{
+    font-size: 56px;
+  }
+  .text{
+    font-size: 26px;
+    color: #3d4f60;
+  }
+ .percentage{
+  margin: 60px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #7913e5;
+ }
+ .returns{
+  font-size: 36px;
+  padding-left: 45px;
+  padding-top: 50px;
+  color: #fff;
+ }
+ .invest{
+  padding-left: 45px;
+  padding-top: 50px;
+  color: #fed6f1;
+  width: 350px;
+ }
+ .cloud{
+  color: #fff;
+ }
+ .Videosection{
+  text-align: center;
+  background-color: aliceblue;
+  
+
+ }
+ 
+.title-2{
+  font-size: 54px;
+}
+.text-2{
+    color: #3d4f60;
+}
+ 
