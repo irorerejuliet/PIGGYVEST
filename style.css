@@ -6,6 +6,7 @@
 }
 body{
   background-color: aliceblue;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .headerlogo{
@@ -48,14 +49,13 @@ body{
 }
 .nav-list:link{
   text-decoration: none ;
-  color: #0c1825;
+  color: rgb(61, 79, 96);
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: Jakarta;
   font-weight: 600;
 }
 .btn:link,.btn:visited{
   text-decoration: none;
-  font-size: 20px;
   display: inline;
   border-radius: 9px;
   transition: all 0.3s;
@@ -76,10 +76,12 @@ P{
   justify-content: space-between;
   padding: 30px 60px;
 }
+/*
 .image{
   position: relative;
   left: 20px;
 }
+  */
 
 .LOCK-1{
   position: absolute;
@@ -153,8 +155,12 @@ display: flex;
   right: 70px;
  }
  .iphone12{
-  
+  position: relative;
+  left: 80px;
+
  }
+  
+ 
  
  .boxes{
   display: flex;
@@ -180,12 +186,14 @@ display: flex;
   width: 350px;
   font-size: 20px; 
   color: #3d4560;
+  margin-bottom: 50vw;
  }
  .Goal{
   font-size: 40px;
   color: rgb(6, 155, 64);
   padding-left: 45px;
   padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
  }
  .Naira{
   font-size: 40px;
@@ -198,6 +206,7 @@ display: flex;
   color: rgb(12, 24, 27);
   padding-left: 45px;
   padding-top: 50px;
+  line-height: normal;
  }
  .key1{
   position: absolute;
@@ -269,8 +278,6 @@ display: flex;
  .Videosection{
   text-align: center;
   background-color: aliceblue;
-  
-
  }
  
 .title-2{
@@ -279,4 +286,140 @@ display: flex;
 .text-2{
     color: #3d4f60;
 }
+.arrow{
+  position: relative;
+  top: 25%;
+}
+ */
+
+ .container{
+  max-width: 1165px;
+  margin: 0 auto;
+  width: 100%;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 120px 0px;
+  width: 100%;
+ }
+ .grid .items{
+  padding: 20px 0px;
+ }
+ .grid .box1{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+ }
+ .box1 h2{
+  font-size: 48px;
+  text-align: center;
+  color: #122231;
+  border: 1px solid #fff;
+ }
+ .box1 p{
+  margin: 18px 107.5px 53px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.6;
+ }
+ .box2{
+  background-color: red;
+  height: 400px;
+ }
+ .box2 h3{
+  font-size: 36px;
+  margin: 18px 0 40px;
+ }
+ .box2 p{
+  font-size: 20px;
+  margin: 18px 0px 40px;
+ }
+  .box2_list1{
+  width: 300px;
+ }
+.items:nth-child(2),
+.items:nth-child(3),
+.items:nth-child(4),
+.items:nth-child(5),
+.items:nth-child(6){
+  background-color: #fff;
+  padding: 30px 10px 0px 30px;
+  border-radius: 15px;
+}
+
+.card-image{
+  display: flex;
+  justify-content: end;
+}
  
+/*testimony section*/
+.test{
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 7px 16px;
+  background-color: #fff;
+}
+.Testimony{
+  display: flex;
+  padding: 200px 50px;
+}
+.pair{
+ padding: 200px 40px;
+}
+.Headtitle{
+  font-size: 40px;
+  width: 420px;
+}
+
+/*brand section*/
+
+.laststage{
+text-align: center;
+font-size: 28px;
+line-height: 36px;
+background-color: rgb(255, 255, 255);
+}
+.brands{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*FOOTER SECTION*/
+footer{
+  width: 100%;
+  font-size: 18px;
+  line-height: 27.2px;
+  padding: 100px 0 30px;
+  background-color: rgb(255, 255, 255);
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+  gap: 10px;
+}
+.Contact{
+  font-size: 14px;
+  font-weight: 300;
+}
+.address{
+  width: fit-content;
+  margin-bottom: 40px;
+ 
+  width: 400px;
+  
+  }
